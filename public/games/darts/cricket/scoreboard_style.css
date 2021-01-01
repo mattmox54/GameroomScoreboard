@@ -1,0 +1,33 @@
+th, td {
+    border: 1px solid black;   
+}
+
+table {
+    border-collapse:collapse;
+}
+
+td.scores img{
+    height: 9vh;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.table_button { 
+    width: 95%;
+    height: 5vh;
+    display: block;
+    margin: auto;
+}
+
+.table_header {
+    padding: 2vh 1vw 2vh 1vw;
+    font-size: 2vh;
+    text-align: center;
+}
+
+.menu_button {
+    margin-bottom: 3vh;
+    height: 5vh;
+    width: 10vw;
+}

@@ -1,0 +1,11 @@
+{
+    "port":65000,
+    "darts":{
+        "cricket":{
+            "blank_img_path":"\\games\\darts\\cricket\\images\\blank.png",
+            "slash_img_path":"\\games\\darts\\cricket\\images\\slash.png",
+            "cross_img_path":"\\games\\darts\\cricket\\images\\cross.png",
+            "circle_img_path":"\\games\\darts\\cricket\\images\\circle.png"
+        }
+    }
+}

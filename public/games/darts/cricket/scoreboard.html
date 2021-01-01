@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="\games\darts\cricket\scoreboard_style.css">
+        <title>Cricket Scoreboard</title>
+    </head>
+    <body>
+        <h1>Cricket</h1>
+        <button class="menu_button" onclick="reset_scores()">Reset</button>
+        <table>
+            <tr id='delete_row'>
+                <td></td>
+                <!--<td><button class='table_button' onclick="delete_player()">Delete</button></td>-->
+                <td><button class='table_button' onclick="new_player()">Add Player</button></td>
+
+            </tr>
+            <tr id='name_row'>
+                <th></th>
+                <!--<th class='table_header'>really long name</th>-->
+            </tr>
+            <tr id='score20_row'>
+                <th class='table_header'>20</th>
+                <!--<td class="scores"><img src="\games\darts\cricket\images\circle.png"></td>-->
+            </tr>
+            <tr id='score19_row'>
+                <th class='table_header'>19</th>
+                <!--<td class="scores"><img src="\games\darts\cricket\images\cross.png"></td>-->
+            </tr>
+            <tr id='score18_row'>
+                <th class='table_header'>18</th>
+                <!--<td class="scores"><img src="\games\darts\cricket\images\slash.png"></td>-->
+            </tr>
+            <tr id='score17_row'>
+                <th class='table_header'>17</th>
+            </tr>
+            <tr id='score16_row'>
+                <th class='table_header'>16</th>
+            </tr>
+            <tr id='score15_row'>
+                <th class='table_header'>15</th>
+            </tr>
+            <tr id='scoreB_row'>
+                <th class='table_header'>B</th>
+            </tr>
+        </table>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="\games\darts\cricket\scoreboard_script.js"></script>
+    </body>
+</html>
